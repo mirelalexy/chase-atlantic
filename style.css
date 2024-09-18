@@ -176,6 +176,10 @@
     display: none;
 }
 
+.menu{
+    display: none;
+}
+
 @media (max-width: 1075px){
     .die-for-me-single{
         display: none;
@@ -211,5 +215,18 @@
 
     .jump-to{
         margin-top: 30px;
+    }
+
+    .link-a{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .links{
+        width: 31px;
+        margin-right: 20px;
     }
 }
