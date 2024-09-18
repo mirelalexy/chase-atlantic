@@ -1,0 +1,172 @@
+.inconsolata-regular {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inconsolata-bold {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.inconsolata-semi {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar-main{
+    height: 102px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0202041a;
+}
+
+.nav-bar-content{
+    height: 88px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    font-family: Inconsolata;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.link-a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-a:hover{
+    color: #cfcece;
+    cursor: pointer;
+}
+
+.links{
+    width: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.logo{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 5px;
+    right: 20px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(293deg, rgba(0, 0, 0, 0.00) 79.29%, #000 93.26%), linear-gradient(3deg, rgba(0, 0, 0, 0.70) 3.69%, rgba(0, 0, 0, 0.00) 20.56%), linear-gradient(142deg, rgba(0, 0, 0, 0.00) 67.75%, #000 91.71%), url(/images/die-for-me-main.webp) lightgray -99.2px 0px / 113.778% 100% no-repeat;
+}
+
+.doubt-it{
+    width: 300px;
+    height: 300px;
+}
+
+.pre-save-btn{
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    background-color: #665ee8;
+    border-radius: 5px;
+    color: #fff;
+    border-style: none;
+}
+
+.pre-save-btn:hover{
+    background-color: #423e9a;
+    cursor: pointer;
+}
+
+.new-single{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.listen-die-for-me-btn{
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    background-color: #a001d1;
+    border-radius: 5px;
+    color: #fff;
+    border-style: none;
+}
+
+.listen-die-for-me-btn:hover{
+    background-color: #6d058d;
+    cursor: pointer;
+}
+
+.die-for-me-single{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    width: 562px;
+}
+
+.c4{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.jump-to{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+}
+
+.down-arrow path:hover{
+    cursor: pointer;
+    fill: #cfcece;
+}
